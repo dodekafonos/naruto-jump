@@ -1,0 +1,33 @@
+.grid {
+    width: 400px;
+    height: 600px;
+    background-image: url(./doodle_tree.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+    color: rgb(206, 82, 0);
+}
+
+.beto {
+    width: 60px;
+    height: 85px;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(./naruto.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.platform {
+    width: 85px;
+    height: 22px;
+    background-image: url(./tree_branch.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 2rem;
+    position: absolute;
+}
+
+
