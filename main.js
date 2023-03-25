@@ -157,7 +157,7 @@ function gameOver() {
     while (grid.firstChild) {
         grid.removeChild(grid.firstChild)
     }
-    grid.innerHTML = 'Your Score Is: ' + score
+    grid.textContent = 'You climbed ' + score + ' logs. You are a ninja!'
     clearInterval(upTimerId)
     clearInterval(downTimerId)
 }
